@@ -10,6 +10,8 @@
 <p align="center">
   <a href="https://pawlite-ai.creamywhale259.chatgpt.site"><strong>在线体验 ↗</strong></a>
   &nbsp; · &nbsp;
+  <a href="https://pawlite-ai.creamywhale259.chatgpt.site/examples/teaching/"><strong>教学样片 ▶</strong></a>
+  &nbsp; · &nbsp;
   <a href="#把需求变成看得见的结果">功能与作品</a>
   &nbsp; · &nbsp;
   <a href="DESIGN.md">设计原理</a>
@@ -63,9 +65,14 @@
 同一个 Agent 围绕目标组织讲解、设计画面、编写动画、调用语音合成并渲染视频。工具链支持配音、字幕与音画合成，也支持可暂停、跳步和交互的 HTML 教学演示。
 
 <p align="center">
-  <img src="assets/teaching-workflow.png" width="640" alt="教学短片制作流程示意：内容设计、音画制作、核对交付；这是流程图，不是视频成品画面" />
-  <br /><sub>制作流程示意 · 真实成片待 PawLite 实际任务完成并审阅后补充</sub>
+  <a href="https://pawlite-ai.creamywhale259.chatgpt.site/examples/teaching/">
+    <img src="assets/teaching-poster.jpg" width="100%" alt="点击播放 PawLite 真实教学样片：余弦相似度为什么看方向，而不看向量长度；含中文配音、字幕与多场景动态图解" />
+  </a>
+  <br /><strong><a href="https://pawlite-ai.creamywhale259.chatgpt.site/examples/teaching/">▶ 播放真实教学样片：看方向，不看长度</a></strong>
+  <br /><sub>PawLite 实际任务产物 · 1 分 06 秒 · 中文旁白 · 画内字幕 · 多场景动态图解 · 支持全屏与下载</sub>
 </p>
+
+从两根向量的夹角出发，连接公式、同向与正交的典型情况，再用缩放动画和检索示意建立直觉。这支面向高校入门课堂的样片，使用 PawLite 完成动画修订、正式配音与视频导出；封面截取自实际成片。
 
 二维图解、数据变化与空间关系可以选择不同的呈现方式；视频和交互页面在任务里预览，原件归档后可下载。教学准确性、字幕节奏、声音和连续画面需要逐份审阅。
 
@@ -144,7 +151,7 @@ PawLite 把“记住什么”拆成不同职责：
 
 原生 JavaScript / HTML / CSS · Python / FastAPI · 流式 HTTP / SSE · 云端 Sandbox · 私有对象存储 · Python / Node.js / FFmpeg / Remotion 与场景工具。
 
-截图与动图使用当前前端和本地演示数据，展示实际布局与操作。动图按演示节奏编排，不代表线上模型响应耗时，也不作为真实任务成果记录。教学视频能力按已有实现介绍，成品示例将使用 PawLite 实际任务产物，经检查后补充。
+截图与动图使用当前前端和本地演示数据，展示实际布局与操作。动图按演示节奏编排，不代表线上模型响应耗时，也不作为真实任务成果记录。教学样片使用 PawLite 实际任务生成的视频，提供独立播放页与 MP4 下载。
 
 本仓库公开产品介绍、界面图片和高层设计。完整业务源码、生产配置与用户数据保留在私有工程中。
 
